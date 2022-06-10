@@ -3,7 +3,7 @@
 @tailwind utilities;
 @layer base {
   body {
-    @apply text-white bg-[#141414];
+    @apply text-white bg-[#141414] !scrollbar-thin !scrollbar-track-transparent !scrollbar-thumb-red-600;
   }
   a {
     @apply text-inherit;
